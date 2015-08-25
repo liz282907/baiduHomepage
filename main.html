@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html" charset="utf-8" />
+	<link rel="stylesheet" type="text/css" href="mainStyle.css">
+	<script language="javascript" type="text/javascript" src = "script/jquery-1.11.3.min.js"></script>
+	<title>百度首页模仿</title>
+</head>
+<body class="wrap">
+	<div id="header">
+		<div id="header_left">
+			<div id="header_left_weather">
+				<a href="#" target="_blank" class="weather-inner">
+					<div class="show-weather">
+						<span class="show-city"><em class="show-city-name">北京:</em></span>
+						<span class="show-icon">
+							<span class="timePic"></span>
+							<em class="show-city-temperature">32°C</em>
+						</span>
+					</div>
+					<div class="show-pollution">
+						<span>
+							<em class="show-pollution-name">良</em>
+							<em class="show-pollution-num">61</em>
+						</span>
+					</div>
+				</a>
+				
+			</div>
+			<ul id="header_left_friendlinks">
+				<li><a href="#" class="linkStyle" title="宝箱">宝箱</a></li>
+				<li><a href="#" class="linkStyle" title="换肤">换肤</a></li>
+				<li><a href="#" class="linkStyle" title="消息">消息</a></li>
+				<li><a href="#" class="linkStyle" title="显示卡片">显示卡片</a></li>
+			</ul> 
+		</div>
+			
+		<div id="navBar">
+			<a href="#" class="navStyle">新闻</a>
+			<a href="#" class="navStyle">hao123</a>
+			<a href="#" class="navStyle">地图</a>
+			<a href="#" class="navStyle">视频</a>
+			<a href="#" class="navStyle">贴吧</a>
+			<a href="#" class="linkStyle">帘项小茿</a>
+			<a href="#" class="linkStyle" id="show_submemu">设置</a>
+
+			<a href="#" class="linkStyle more-product">更多产品</a>
+
+		</div>
+	</div>
+	<div id="content_search_bar">
+		<a id="logo"><img id="logo_img" src="image/logo.png" width: 282px;height: 123px;></a>
+		<!-- <a href="#" id="logo"></a> -->
+		<form id="searchBar" action="#" method="GET">
+			<input  type="text" name="search_input" placeholder="" id="userinput" maxlength="50"/>		
+			<input type="submit" value="百度一下" id="usersubmit"/>
+		</form >
+	</div>
+	<div id="empty_divider">
+	</div>
+	<div id="footer">
+		<a href="#">设为首页</a>
+		<span>@2015 Baidu</span>
+		<a href="#">使用百度必读</a>
+		<a href="#">意见反馈</a>
+		<span>京ICP证书</span>
+	</div>
+
+
+
+<script type="text/javascript" src="script/mainScript.js"></script>
+</body>
+</html>

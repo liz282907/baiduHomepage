@@ -1,0 +1,164 @@
+*{margin: 0;padding: 0;color: white}
+em{font-style: normal;}                         /*消除默认斜体*/
+body
+{
+	background-image: url('image/background.jpg');
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	min-height: 100%;
+}
+#header
+{
+	height: 34px;
+	line-height: 34px;
+	background-color: rgba(0,0,0,0.6);
+	min-width: 800px;                                 /*待计算*/
+}
+#header_left
+{
+	float: left;
+}
+#navBar
+{
+	float: right;
+	margin-right: 5px;
+	width: 430px;
+}
+#navBar a
+{
+	display: inline-block;
+	margin-right: 13px;
+	font:13px/34px "Microsoft Yahei","微软雅黑",sans-serif;
+	text-decoration: underline;	
+
+	color: white;
+}
+#navBar a.navStyle
+{
+	font-weight: bold;
+}
+
+#navBar a.more-product
+{
+	background-color: #3388ff;
+	text-decoration: none;
+	padding: 0 5px;
+
+}
+
+#header_left_weather
+{
+	float: left;
+	font:13px/34px "Microsoft Yahei","微软雅黑",sans-serif;
+	text-decoration: underline;
+	margin: 0 15px;
+}
+#header_left_weather div.show-weather{float: left;margin-right: 8px;}
+#header_left_weather div.show-pollution{float: left;}
+#header_left_weather div.show-pollution span{padding-right:15px;border-right: 1px white solid;}
+#header_left_weather div.show-pollution span em{color: #badc00}                   /*只有em才能使文字变色，在span上不行*/
+#header_left_weather .show-weather span.timePic{display:inline-block;background-image: url('image/temperature.png');width: 18px;height: 18px;}
+#header_left_friendlinks
+{
+	float: left;
+	list-style-type: none;
+	font:13px/34px "Microsoft Yahei","微软雅黑",sans-serif;
+
+}
+#header_left_friendlinks li
+{
+	display: inline-block;
+	margin-right: 10px;
+}
+
+#content_search_bar
+{
+	width: 720px;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 120px;
+
+}
+#content_search_bar a
+{
+	text-align: center;
+	display: block;
+}
+/*#content_search_bar a{
+	background-image: url('image/logo.png');background-repeat:no-repeat;
+	width: 282px;height: 123px;display: inline-block;
+	position: absolute;
+	left: 50%;
+	margin-left: -141px;
+}*/
+#content_search_bar form{
+	margin: 40px auto;
+	width: 100%;
+	vertical-align: middle;
+	padding-left: 20px;
+
+}
+#content_search_bar form input{color: black;float: left;border: medium none;/* 去除自有边框属性,为什么加了这句话就能输入了？？*/}
+#content_search_bar form #userinput{height: 20px;line-height: 20px;padding: 10px 15px;width: 521px;}
+#content_search_bar form input[type="submit"]{
+	display: inline-block;
+	border-radius:0;                   
+	font-size: 16px;
+	height: 40px;
+	width: 103px;
+/*	line-height: 40px;*/                             /*不知道为什么这一句加了就会有偏移*/
+	background-color: #f1f1f1;
+	color: black;
+	text-align: center;
+	cursor: pointer;
+
+}
+	
+#empty_divider{height: 30px;min-height: 30px;width: 100%;}
+#footer
+{
+	position: absolute;
+	bottom: 5px;
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+}
+#footer a,#footer span{color: white;margin-right: 10px;font-size: 12px;display: inline-block;text-decoration: none;}
+#footer a:hover
+{
+	text-decoration: underline;
+}
+
+#submenu .submenu_li
+{
+	list-style-type: none;
+	padding: 10px 7px;
+	/*width: 80px;*/
+	color: black;
+	background-color: #f8fada;
+	font-size:14px;
+	display: block;
+}
+.onhover
+{
+	background-color: #3388ff;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
